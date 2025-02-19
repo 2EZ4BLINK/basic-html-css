@@ -9,3 +9,28 @@
 body {
   font-family: "Noto Sans", serif;
 }
+
+.main_photo {
+  border-radius: 20px;
+  width: 100%;
+  height: auto;
+}
+
+.navbar {
+  background-color: #8c5e42;
+}
+
+.navbar-brand,
+.nav-link {
+  color: #ffff !important;
+}
+
+.navbar-toggler {
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.navbar-toggler-icon {
+  filter: invert(100%);
+}
