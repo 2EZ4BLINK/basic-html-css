@@ -6,19 +6,8 @@
   box-sizing: border-box;
 }
 
-body,
-html {
+body {
   font-family: "Noto Sans", serif;
-}
-
-.title {
-  font-weight: bold;
-}
-
-.main_photo {
-  border-radius: 20px;
-  width: 100%;
-  height: auto;
 }
 
 .navbar {
@@ -49,6 +38,27 @@ html {
   filter: invert(100%);
 }
 
-.bi-hand-thumbs-up {
-  margin-left: 8px;
+.about-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-image {
+  height: 100%;
+  width: auto;
+  max-height: 383px;
+}
+
+.title {
+  font-size: 45px;
+}
+
+.card-body {
+  text-align: justify;
+}
+
+.activities {
+  background-color: #0077b6;
+  color: white;
 }
