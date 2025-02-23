@@ -31,7 +31,19 @@
     <header>
       <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
-          <a class="navbar-brand" href="/">Jehova's Witness</a>
+          <a class="navbar-brand" href="/">
+            <img
+              src="/public/assets/favicon.ico"
+              alt="Favicon"
+              style="
+                width: 24px;
+                height: 24px;
+                margin-right: 8px;
+                margin-left: 5px;
+              "
+            />
+            Jehova's Witness
+          </a>
 
           <button
             class="navbar-toggler"
@@ -53,7 +65,10 @@
                 <a class="nav-link" href="/components/about.html">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="/"
+                <a
+                  class="nav-link"
+                  aria-current="page"
+                  href="components/bible_teaching.html"
                   >Bible Teaching</a
                 >
               </li>
@@ -69,17 +84,19 @@
     <main>
       <section class="main-section">
         <div class="main-section-image-container">
-          <div class="overlay"></div>
-
-          <img src="public/assets/main_photo.jpg" class="main_photo" />
+          <img
+            src="public/assets/main_photo.jpg"
+            class="center-image"
+            alt="main-photo"
+          />
 
           <div class="main-details">
-            <div>
-              <h1 class="title" id="title">Default Text</h1>
+            <div class="section-details">
+              <h2 class="title" id="title">Default Text</h2>
               <h3 class="subtitle" id="subtitle">Default Text</h3>
               <p class="description" id="description">Default Text</p>
 
-              <div class="mt-5 p-0">
+              <div class="modal-button">
                 <button
                   type="button"
                   class="btn btn-primary"
